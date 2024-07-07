@@ -1,0 +1,12 @@
+body {
+  transition: background-color 0.5s ease, filter 0.5s ease;
+}
+
+body.dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+body.dark-mode img,
+body.dark-mode video {
+  filter: invert(1) hue-rotate(180deg);
+}
